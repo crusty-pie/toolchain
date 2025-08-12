@@ -32,7 +32,7 @@ jobs:
           - beta
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Use myself
         id: toolchain
@@ -68,7 +68,7 @@ jobs:
     container: ubuntu:latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
         # `rustup` will need `curl` or `wget` later
       - name: Install packages
