@@ -33,9 +33,9 @@
         "url": "https://github.com/placintaalexandru/toolchain/issues"
     },
     "dependencies": {
+        "@actions/io": "^2.0.0",
         "@actions/core": "^2.0.1",
         "@actions/exec": "^2.0.0",
-        "@actions/io": "^1.0.2",
         "@actions/tool-cache": "^2.0.2",
         "action-input-parser": "1.2.38",
         "commander": "^14.0.2",
