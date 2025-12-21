@@ -33,7 +33,7 @@ jobs:
           - wasm32-unknown-unknown,arm-linux-androideabi, i686-pc-windows-msvc
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Use myself
         uses: ./
@@ -61,7 +61,7 @@ jobs:
     container: ubuntu:latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
         # `rustup` will need `curl` or `wget` later
       - name: Install packages
