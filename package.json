@@ -34,7 +34,7 @@
     },
     "dependencies": {
         "@actions/io": "^2.0.0",
-        "@actions/core": "^2.0.3",
+        "@actions/core": "^3.0.0",
         "@actions/exec": "^2.0.0",
         "@actions/tool-cache": "^2.0.2",
         "action-input-parser": "1.2.38",
