@@ -44,7 +44,7 @@
         "toml": "^3.0.0"
     },
     "devDependencies": {
-        "@fast-check/jest": "^2.1.1",
+        "@fast-check/jest": "^2.2.0",
         "@types/jest": "^30.0.0",
         "@types/node": "^25.0.10",
         "@types/semver": "^7.7.1",
